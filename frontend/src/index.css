@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-surface text-navy-900 font-body antialiased;
+}
+
+h1, h2, h3 {
+  @apply font-display;
+}
+
+/* Visible keyboard focus for accessibility */
+button:focus-visible,
+a:focus-visible,
+input:focus-visible,
+select:focus-visible {
+  outline: 2px solid #14B8A6;
+  outline-offset: 2px;
+}
